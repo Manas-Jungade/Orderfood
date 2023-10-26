@@ -299,224 +299,222 @@ int main(){
     restaurants[4].specialmeal[4].servicetime=30;}
                                                                         /*********************************************************/
         // sixth Restaurant
-    strcpy(restaurants[2].name,"food fusion");
-    strcpy(restaurants[2].address,"bajaj nagar");
-    strcpy(restaurants[2].dayspecial,"chicken burger");
+    strcpy(restaurants[5].name,"food fusion");
+    strcpy(restaurants[5].address,"bajaj nagar");
+    strcpy(restaurants[5].dayspecial,"chicken burger");
 
-    restaurants[2].dayspecial_price=150;
-    restaurants[2].dayspecial_time=20;
-    restaurants[2].menusize=6;
-    restaurants[2].specialitemsize=3;
+    restaurants[5].dayspecial_price=150;
+    restaurants[5].dayspecial_time=20;
+    restaurants[5].menusize=6;
+    restaurants[5].specialitemsize=3;
     // MEal
-    strcpy(restaurants[2].items[0].item_name,"masala maggi");
-    strcpy(restaurants[2].items[1].item_name,"veg burger");
-    strcpy(restaurants[2].items[2].item_name,"Chicken nuggets");
-    strcpy(restaurants[2].items[3].item_name,"veg roll");
-    strcpy(restaurants[2].items[4].item_name,"plain maggi");
-    strcpy(restaurants[2].items[5].item_name,"veg nuggets");
+    strcpy(restaurants[5].items[0].item_name,"masala maggi");
+    strcpy(restaurants[5].items[1].item_name,"veg burger");
+    strcpy(restaurants[5].items[2].item_name,"Chicken nuggets");
+    strcpy(restaurants[5].items[3].item_name,"veg roll");
+    strcpy(restaurants[5].items[4].item_name,"plain maggi");
+    strcpy(restaurants[5].items[5].item_name,"veg nuggets");
 
-    restaurants[2].items[0].item_price=100;
-    restaurants[2].items[1].item_price=200;
-    restaurants[2].items[2].item_price=250;
-    restaurants[2].items[3].item_price=100;
-    restaurants[2].items[4].item_price=50;
-    restaurants[2].items[5].item_price=200;
+    restaurants[5].items[0].item_price=100;
+    restaurants[5].items[1].item_price=200;
+    restaurants[5].items[2].item_price=250;
+    restaurants[5].items[3].item_price=100;
+    restaurants[5].items[4].item_price=50;
+    restaurants[5].items[5].item_price=200;
 
-    restaurants[2].items[0].servicetime=20;
-    restaurants[2].items[1].servicetime=30;
-    restaurants[2].items[2].servicetime=20;
-    restaurants[2].items[3].servicetime=15;
-    restaurants[2].items[4].servicetime=10;
-    restaurants[2].items[5].servicetime=20;
+    restaurants[5].items[0].servicetime=20;
+    restaurants[5].items[1].servicetime=30;
+    restaurants[5].items[2].servicetime=20;
+    restaurants[5].items[3].servicetime=15;
+    restaurants[5].items[4].servicetime=10;
+    restaurants[5].items[5].servicetime=20;
     // special item
-    strcpy(restaurants[2].specialmeal[0].special_item_name,"peri peri maggi");
-    strcpy(restaurants[2].specialmeal[1].special_item_name,"cheese maggi");
-    strcpy(restaurants[2].specialmeal[2].special_item_name,"chicken roll");
+    strcpy(restaurants[5].specialmeal[0].special_item_name,"peri peri maggi");
+    strcpy(restaurants[5].specialmeal[1].special_item_name,"cheese maggi");
+    strcpy(restaurants[5].specialmeal[2].special_item_name,"chicken roll");
 
 
-    restaurants[2].specialmeal[0].special_item_prices=100;
-    restaurants[2].specialmeal[1].special_item_prices=90;
-    restaurants[2].specialmeal[2].special_item_prices=100;
+    restaurants[5].specialmeal[0].special_item_prices=100;
+    restaurants[5].specialmeal[1].special_item_prices=90;
+    restaurants[5].specialmeal[2].special_item_prices=100;
     
 
-    restaurants[2].specialmeal[0].servicetime=20;
-    restaurants[2].specialmeal[1].servicetime=15;
-    restaurants[2].specialmeal[2].servicetime=15;
+    restaurants[5].specialmeal[0].servicetime=20;
+    restaurants[5].specialmeal[1].servicetime=15;
+    restaurants[5].specialmeal[2].servicetime=15;
     
 
                                /***************************************************************/
     // seventh Restaurant
-    strcpy(restaurants[2].name,"Haldiram");
-    strcpy(restaurants[2].address,"dharampeth");
-    strcpy(restaurants[2].dayspecial,"masala dosa");
+    strcpy(restaurants[6].name,"Haldiram");
+    strcpy(restaurants[6].address,"dharampeth");
+    strcpy(restaurants[6].dayspecial,"masala dosa");
 
-    restaurants[2].dayspecial_price=150;
-    restaurants[2].dayspecial_time=20;
-    restaurants[2].menusize=6;
-    restaurants[2].specialitemsize=2;
+    restaurants[6].dayspecial_price=150;
+    restaurants[6].dayspecial_time=20;
+    restaurants[6].menusize=6;
+    restaurants[6].specialitemsize=2;
     // MEal
-    strcpy(restaurants[2].items[0].item_name,"paneer butter masala");
-    strcpy(restaurants[2].items[1].item_name,"shahi paneer");
-    strcpy(restaurants[2].items[2].item_name,"aloo mutter");
-    strcpy(restaurants[2].items[3].item_name,"dal makhani");
-    strcpy(restaurants[2].items[4].item_name,"garlic naan");
-    strcpy(restaurants[2].items[5].item_name,"moong daal");
+    strcpy(restaurants[6].items[0].item_name,"paneer butter masala");
+    strcpy(restaurants[6].items[1].item_name,"shahi paneer");
+    strcpy(restaurants[6].items[2].item_name,"aloo mutter");
+    strcpy(restaurants[6].items[3].item_name,"dal makhani");
+    strcpy(restaurants[6].items[4].item_name,"garlic naan");
+    strcpy(restaurants[6].items[5].item_name,"moong daal");
 
-    restaurants[2].items[0].item_price=200;
-    restaurants[2].items[1].item_price=200;
-    restaurants[2].items[2].item_price=150;
-    restaurants[2].items[3].item_price=200;
-    restaurants[2].items[4].item_price=50;
-    restaurants[2].items[5].item_price=100;
+    restaurants[6].items[0].item_price=200;
+    restaurants[6].items[1].item_price=200;
+    restaurants[6].items[2].item_price=150;
+    restaurants[6].items[3].item_price=200;
+    restaurants[6].items[4].item_price=50;
+    restaurants[6].items[5].item_price=100;
 
-    restaurants[2].items[0].servicetime=20;
-    restaurants[2].items[1].servicetime=30;
-    restaurants[2].items[2].servicetime=20;
-    restaurants[2].items[3].servicetime=15;
-    restaurants[2].items[4].servicetime=10;
-    restaurants[2].items[5].servicetime=20;
+    restaurants[6].items[0].servicetime=20;
+    restaurants[6].items[1].servicetime=30;
+    restaurants[6].items[2].servicetime=20;
+    restaurants[6].items[3].servicetime=15;
+    restaurants[6].items[4].servicetime=10;
+    restaurants[6].items[5].servicetime=20;
     // special item
-    strcpy(restaurants[2].specialmeal[0].special_item_name,"kheer");
-    strcpy(restaurants[2].specialmeal[1].special_item_name,"raita");
+    strcpy(restaurants[6].specialmeal[0].special_item_name,"kheer");
+    strcpy(restaurants[6].specialmeal[1].special_item_name,"raita");
     
 
 
-    restaurants[2].specialmeal[0].special_item_prices=100;
-    restaurants[2].specialmeal[1].special_item_prices=90;
+    restaurants[6].specialmeal[0].special_item_prices=100;
+    restaurants[6].specialmeal[1].special_item_prices=90;
     
     
 
-    restaurants[2].specialmeal[0].servicetime=20;
-    restaurants[2].specialmeal[1].servicetime=15;
+    restaurants[6].specialmeal[0].servicetime=20;
+    restaurants[6].specialmeal[1].servicetime=15;
     
     
 
                                /***************************************************************/
      // eighth Restaurant
-    strcpy(restaurants[2].name,"Haldiram");
-    strcpy(restaurants[2].address,"sitabuldi");
-    strcpy(restaurants[2].dayspecial,"masala dosa");
+    strcpy(restaurants[7].name,"Haldiram");
+    strcpy(restaurants[7].address,"sitabuldi");
+    strcpy(restaurants[7].dayspecial,"masala dosa");
 
-    restaurants[2].dayspecial_price=150;
-    restaurants[2].dayspecial_time=20;
-    restaurants[2].menusize=6;
-    restaurants[2].specialitemsize=2;
+    restaurants[7].dayspecial_price=150;
+    restaurants[7].dayspecial_time=20;
+    restaurants[7].menusize=6;
+    restaurants[7].specialitemsize=2;
     // MEal
-    strcpy(restaurants[2].items[0].item_name,"paneer butter masala");
-    strcpy(restaurants[2].items[1].item_name,"shahi paneer");
-    strcpy(restaurants[2].items[2].item_name,"aloo mutter");
-    strcpy(restaurants[2].items[3].item_name,"dal makhani");
-    strcpy(restaurants[2].items[4].item_name,"garlic naan");
-    strcpy(restaurants[2].items[5].item_name,"moong daal");
+    strcpy(restaurants[7].items[0].item_name,"paneer butter masala");
+    strcpy(restaurants[7].items[1].item_name,"shahi paneer");
+    strcpy(restaurants[7].items[2].item_name,"aloo mutter");
+    strcpy(restaurants[7].items[3].item_name,"dal makhani");
+    strcpy(restaurants[7].items[4].item_name,"garlic naan");
+    strcpy(restaurants[7].items[5].item_name,"moong daal");
 
-    restaurants[2].items[0].item_price=200;
-    restaurants[2].items[1].item_price=200;
-    restaurants[2].items[2].item_price=150;
-    restaurants[2].items[3].item_price=200;
-    restaurants[2].items[4].item_price=50;
-    restaurants[2].items[5].item_price=100;
+    restaurants[7].items[0].item_price=200;
+    restaurants[7].items[1].item_price=200;
+    restaurants[7].items[2].item_price=150;
+    restaurants[7].items[3].item_price=200;
+    restaurants[7].items[4].item_price=50;
+    restaurants[7].items[5].item_price=100;
 
-    restaurants[2].items[0].servicetime=15;
-    restaurants[2].items[1].servicetime=20;
-    restaurants[2].items[2].servicetime=20;
-    restaurants[2].items[3].servicetime=15;
-    restaurants[2].items[4].servicetime=10;
-    restaurants[2].items[5].servicetime=20;
+    restaurants[7].items[0].servicetime=15;
+    restaurants[7].items[1].servicetime=20;
+    restaurants[7].items[2].servicetime=20;
+    restaurants[7].items[3].servicetime=15;
+    restaurants[7].items[4].servicetime=10;
+    restaurants[7].items[5].servicetime=20;
     // special item
-    strcpy(restaurants[2].specialmeal[0].special_item_name,"kheer");
-    strcpy(restaurants[2].specialmeal[1].special_item_name,"raita");
+    strcpy(restaurants[7].specialmeal[0].special_item_name,"kheer");
+    strcpy(restaurants[7].specialmeal[1].special_item_name,"raita");
     
-    restaurants[2].specialmeal[0].special_item_prices=100;
-    restaurants[2].specialmeal[1].special_item_prices=90;
-    
-    restaurants[2].specialmeal[0].servicetime=20;
-    restaurants[2].specialmeal[1].servicetime=20;
+    restaurants[7].specialmeal[0].special_item_prices=100;
+    restaurants[7].specialmeal[1].special_item_prices=90;
+
+    restaurants[7].specialmeal[0].servicetime=20;
+    restaurants[7].specialmeal[1].servicetime=20;
     
                                   /***************************************************************/
     
     // ninth restaurant data
 
-    strcpy(restaurants[1].name,"navratna sagar");
-    strcpy(restaurants[1].address,"pratap nagar");
-    strcpy(restaurants[1].dayspecial,"daal bhatti");
-
-    restaurants[1].dayspecial_price=100;
-    restaurants[1].dayspecial_time=15;
-    restaurants[1].menusize=5;
-    restaurants[1].specialitemsize=3;
+    strcpy(restaurants[8].name,"navratna sagar");
+    strcpy(restaurants[8].address,"pratap nagar");
+    strcpy(restaurants[8].dayspecial,"daal bhatti");
+    restaurants[8].dayspecial_price=100;
+    restaurants[8].dayspecial_time=15;
+    restaurants[8].menusize=5;
+    restaurants[8].specialitemsize=3;
     // MEal
-    strcpy(restaurants[1].items[0].item_name,"Paneer");
-    strcpy(restaurants[1].items[1].item_name,"Chola");
-    strcpy(restaurants[1].items[2].item_name,"aloo mutter");
-    strcpy(restaurants[1].items[3].item_name,"papad");
-    strcpy(restaurants[1].items[4].item_name,"roti");
+    strcpy(restaurants[8].items[0].item_name,"Paneer");
+    strcpy(restaurants[8].items[1].item_name,"Chola");
+    strcpy(restaurants[8].items[2].item_name,"aloo mutter");
+    strcpy(restaurants[8].items[3].item_name,"papad");
+    strcpy(restaurants[8].items[4].item_name,"roti");
 
-    restaurants[1].items[0].item_price=300;
-    restaurants[1].items[1].item_price=250;
-    restaurants[1].items[2].item_price=200;
-    restaurants[1].items[3].item_price=50;
-    restaurants[1].items[4].item_price=100;
+    restaurants[8].items[0].item_price=300;
+    restaurants[8].items[1].item_price=250;
+    restaurants[8].items[2].item_price=200;
+    restaurants[8].items[3].item_price=50;
+    restaurants[8].items[4].item_price=100;
 
-    restaurants[1].items[0].servicetime=10;
-    restaurants[1].items[1].servicetime=15;
-    restaurants[1].items[2].servicetime=10;
-    restaurants[1].items[3].servicetime=5;
-    restaurants[1].items[4].servicetime=5;
+    restaurants[8].items[0].servicetime=10;
+    restaurants[8].items[1].servicetime=15;
+    restaurants[8].items[2].servicetime=10;
+    restaurants[8].items[3].servicetime=5;
+    restaurants[8].items[4].servicetime=5;
     // special item
-    strcpy(restaurants[1].specialmeal[0].special_item_name,"kachori");
-    strcpy(restaurants[1].specialmeal[1].special_item_name,"samosa");
-    strcpy(restaurants[1].specialmeal[2].special_item_name,"pulao rice");
+    strcpy(restaurants[8].specialmeal[0].special_item_name,"kachori");
+    strcpy(restaurants[8].specialmeal[1].special_item_name,"samosa");
+    strcpy(restaurants[8].specialmeal[2].special_item_name,"pulao rice");
 
-    restaurants[1].specialmeal[0].special_item_prices=60;
-    restaurants[1].specialmeal[1].special_item_prices=80;
-    restaurants[1].specialmeal[2].special_item_prices=100;
+    restaurants[8].specialmeal[0].special_item_prices=60;
+    restaurants[8].specialmeal[1].special_item_prices=80;
+    restaurants[8].specialmeal[2].special_item_prices=100;
 
-    restaurants[1].specialmeal[0].servicetime=10;
-    restaurants[1].specialmeal[1].servicetime=10;
-    restaurants[1].specialmeal[2].servicetime=15;
+    restaurants[8].specialmeal[0].servicetime=10;
+    restaurants[8].specialmeal[1].servicetime=10;
+    restaurants[8].specialmeal[2].servicetime=15;
 
                                             /***************************************************************************************/
 
     // tenth restaurant data
 
-    strcpy(restaurants[1].name,"lush house");
-    strcpy(restaurants[1].address,"bajaj nagar");
-    strcpy(restaurants[1].dayspecial,"pizza");
+    strcpy(restaurants[9].name,"lush house");
+    strcpy(restaurants[9].address,"bajaj nagar");
+    strcpy(restaurants[9].dayspecial,"pizza");
 
-    restaurants[1].dayspecial_price=300;
-    restaurants[1].dayspecial_time=15;
-    restaurants[1].menusize=5;
-    restaurants[1].specialitemsize=3;
+    restaurants[9].dayspecial_price=300;
+    restaurants[9].dayspecial_time=15;
+    restaurants[9].menusize=5;
+    restaurants[9].specialitemsize=3;
     // MEal
-    strcpy(restaurants[1].items[0].item_name,"Pasta");
-    strcpy(restaurants[1].items[1].item_name,"burger");
-    strcpy(restaurants[1].items[2].item_name,"sandwitch");
-    strcpy(restaurants[1].items[3].item_name,"Cheese burger");
-    strcpy(restaurants[1].items[4].item_name,"arabiata");
+    strcpy(restaurants[9].items[0].item_name,"Pasta");
+    strcpy(restaurants[9].items[1].item_name,"burger");
+    strcpy(restaurants[9].items[2].item_name,"sandwitch");
+    strcpy(restaurants[9].items[3].item_name,"Cheese burger");
+    strcpy(restaurants[9].items[4].item_name,"arabiata");
+    restaurants[9].items[0].item_price=300;
+    restaurants[9].items[1].item_price=250;
+    restaurants[9].items[2].item_price=150;
+    restaurants[9].items[3].item_price=350;
+    restaurants[9].items[4].item_price=400;
 
-    restaurants[1].items[0].item_price=300;
-    restaurants[1].items[1].item_price=250;
-    restaurants[1].items[2].item_price=150;
-    restaurants[1].items[3].item_price=350;
-    restaurants[1].items[4].item_price=400;
-
-    restaurants[1].items[0].servicetime=10;
-    restaurants[1].items[1].servicetime=15;
-    restaurants[1].items[2].servicetime=10;
-    restaurants[1].items[3].servicetime=20;
-    restaurants[1].items[4].servicetime=30;
+    restaurants[9].items[0].servicetime=10;
+    restaurants[9].items[1].servicetime=15;
+    restaurants[9].items[2].servicetime=10;
+    restaurants[9].items[3].servicetime=20;
+    restaurants[9].items[4].servicetime=30;
     // special item
-    strcpy(restaurants[1].specialmeal[0].special_item_name,"pesto pasta");
-    strcpy(restaurants[1].specialmeal[1].special_item_name,"garlic bread");
-    strcpy(restaurants[1].specialmeal[2].special_item_name,"mini burger");
+    strcpy(restaurants[9].specialmeal[0].special_item_name,"pesto pasta");
+    strcpy(restaurants[9].specialmeal[1].special_item_name,"garlic bread");
+    strcpy(restaurants[9].specialmeal[2].special_item_name,"mini burger");
 
-    restaurants[1].specialmeal[0].special_item_prices=250;
-    restaurants[1].specialmeal[1].special_item_prices=150;
-    restaurants[1].specialmeal[2].special_item_prices=200;
+    restaurants[9].specialmeal[0].special_item_prices=250;
+    restaurants[9].specialmeal[1].special_item_prices=150;
+    restaurants[9].specialmeal[2].special_item_prices=200;
 
-    restaurants[1].specialmeal[0].servicetime=20;
-    restaurants[1].specialmeal[1].servicetime=10;
-    restaurants[1].specialmeal[2].servicetime=10;
+    restaurants[9].specialmeal[0].servicetime=20;
+    restaurants[9].specialmeal[1].servicetime=10;
+    restaurants[9].specialmeal[2].servicetime=10;
 
                                             /***************************************************************************************/
     printf("*****  Welcome *****\n");
