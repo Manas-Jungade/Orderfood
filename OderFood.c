@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-# define no_of_restaurants 5
+# define no_of_restaurants 10
 # define no_of_fooditems 10
 # define no_of_specialitems 10
 
@@ -35,12 +35,41 @@ struct Restaurants
   int menusize;
   int specialitemsize;
 };
+struct food_ordered
+{
+    char food_item_ordered[50];
+    int quantity_ordered;
+
+};
+
+
+struct userdetails{
+    int order_time; 
+    char username[50];
+    char phone_number[10];
+    char useraddress[100];
+    int delivery_time;
+    struct  food_ordered order[10];
+};
+
+void add_user(struct userdetails user[],int *count){
+    printf("Enter the username : ");
+    gets(user[*count].username);
+    printf("Enter the user address : ");
+    gets(user[*count].useraddress);
+    printf("Enter the user phone number : ");
+    gets(user[*count].phone_number);
+    printf("User Registered Successfully.\n");
+    *count=*count+1;
+
+}
 
 int main(){
 
     struct  Restaurants restaurants[no_of_restaurants];
+    struct userdetails user[100];
 
-    // First Restaurant data
+    {// First Restaurant data
     strcpy(restaurants[0].name,"Little");
     strcpy(restaurants[0].address,"Ram nagar");
     strcpy(restaurants[0].dayspecial,"Special Burger");
@@ -166,7 +195,119 @@ int main(){
     restaurants[2].specialmeal[3].servicetime=20;
 
                                /***************************************************************/
-    printf("hello");
+    // Fourth Restaurant
+
+    strcpy(restaurants[3].name,"Food island");
+    strcpy(restaurants[3].address,"Wardha Road");
+    strcpy(restaurants[3].dayspecial,"Chocolate Sauce");
+
+    restaurants[3].dayspecial_price=150;
+    restaurants[3].dayspecial_time=20;
+    restaurants[3].menusize=6;
+    restaurants[3].specialitemsize=5;
+    // MEal
+    strcpy(restaurants[3].items[0].item_name,"Panner");
+    strcpy(restaurants[3].items[1].item_name,"Chicken Curry");
+    strcpy(restaurants[3].items[2].item_name,"Laccha Paratha");
+    strcpy(restaurants[3].items[3].item_name,"Vegetable Biryani");
+    strcpy(restaurants[3].items[4].item_name,"Manchurian");
+    strcpy(restaurants[3].items[5].item_name,"Chocolate Shake");
+
+    restaurants[3].items[0].item_price=350;
+    restaurants[3].items[1].item_price=300;
+    restaurants[3].items[2].item_price=50;
+    restaurants[3].items[3].item_price=130;
+    restaurants[3].items[4].item_price=100;
+    restaurants[3].items[5].item_price=90;
+
+    restaurants[3].items[0].servicetime=30;
+    restaurants[3].items[1].servicetime=30;
+    restaurants[3].items[2].servicetime=20;
+    restaurants[3].items[3].servicetime=20;
+    restaurants[3].items[4].servicetime=20;
+    restaurants[3].items[5].servicetime=30;
+
+    // special item
+    strcpy(restaurants[3].specialmeal[0].special_item_name,"Pizza");
+    strcpy(restaurants[3].specialmeal[1].special_item_name,"Chicken popcorn");
+    strcpy(restaurants[3].specialmeal[2].special_item_name,"Chicken Roll");
+    strcpy(restaurants[3].specialmeal[3].special_item_name,"Panner Roll");
+    strcpy(restaurants[3].specialmeal[4].special_item_name,"French Fries");
+
+    restaurants[3].specialmeal[0].special_item_prices=200;
+    restaurants[3].specialmeal[1].special_item_prices=180;
+    restaurants[3].specialmeal[2].special_item_prices=100;
+    restaurants[3].specialmeal[3].special_item_prices=120;
+    restaurants[3].specialmeal[4].special_item_prices=80;
+
+    restaurants[3].specialmeal[0].servicetime=20;
+    restaurants[3].specialmeal[1].servicetime=15;
+    restaurants[3].specialmeal[2].servicetime=15;
+    restaurants[3].specialmeal[3].servicetime=20;
+    restaurants[3].specialmeal[4].servicetime=10;
+
+                                           /**********************************************************************/
+
+    // Fifth Restaurant
+    strcpy(restaurants[4].name,"Grill Inn");
+    strcpy(restaurants[4].address,"Dharampeth");
+    strcpy(restaurants[4].dayspecial,"White Saus Pasta");
+
+    restaurants[4].dayspecial_price=170;
+    restaurants[4].dayspecial_time=20;
+    restaurants[4].menusize=6;
+    restaurants[4].specialitemsize=5;
+    // MEal
+    strcpy(restaurants[4].items[0].item_name,"Veg Grilled Sandwich");
+    strcpy(restaurants[4].items[1].item_name,"Pizza");
+    strcpy(restaurants[4].items[2].item_name,"Chicken hot burger");
+    strcpy(restaurants[4].items[3].item_name,"Creamy White Pasta");
+    strcpy(restaurants[4].items[4].item_name,"Crispy panner Wrap");
+    strcpy(restaurants[4].items[5].item_name,"Crispy Chicken Wrap");
+
+    restaurants[4].items[0].item_price=110;
+    restaurants[4].items[1].item_price=150;
+    restaurants[4].items[2].item_price=200;
+    restaurants[4].items[3].item_price=180;
+    restaurants[4].items[4].item_price=100;
+    restaurants[4].items[5].item_price=120;
+
+    restaurants[4].items[0].servicetime=30;
+    restaurants[4].items[1].servicetime=20;
+    restaurants[4].items[2].servicetime=30;
+    restaurants[4].items[3].servicetime=20;
+    restaurants[4].items[4].servicetime=15;
+    restaurants[4].items[5].servicetime=30;
+
+    // special item
+    strcpy(restaurants[4].specialmeal[0].special_item_name,"Panner Biryani");
+    strcpy(restaurants[4].specialmeal[1].special_item_name,"Chicken Biryani");
+    strcpy(restaurants[4].specialmeal[2].special_item_name,"Panner Masala");
+    strcpy(restaurants[4].specialmeal[3].special_item_name,"Mushroom Masala");
+    strcpy(restaurants[4].specialmeal[4].special_item_name,"Kichdi");
+
+    restaurants[4].specialmeal[0].special_item_prices=180;
+    restaurants[4].specialmeal[1].special_item_prices=200;
+    restaurants[4].specialmeal[2].special_item_prices=150;
+    restaurants[4].specialmeal[3].special_item_prices=150;
+    restaurants[4].specialmeal[4].special_item_prices=100;
+
+    restaurants[4].specialmeal[0].servicetime=20;
+    restaurants[4].specialmeal[1].servicetime=30;
+    restaurants[4].specialmeal[2].servicetime=20;
+    restaurants[4].specialmeal[3].servicetime=20;
+    restaurants[4].specialmeal[4].servicetime=30;}
+    printf("*****  Welcome *****\n");
+    printf("First try to Login with your name,phone no and address\n");
+    int usercount=0;
+    add_user(user,&usercount);
+    
+
+
+
+
+
+
 
     
 
